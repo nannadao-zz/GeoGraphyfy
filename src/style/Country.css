@@ -1,0 +1,50 @@
+.Country {
+    display: grid;
+    width: 100%;
+    grid-template-rows: auto 7em;
+}
+
+.Country-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+
+.Country-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Country-name {
+    font-size: 30px;
+    margin-top: 55px;
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Country-middle img {
+    max-width: 350px;
+    align-self: start;
+    margin-top: 25px;
+    max-height: 400px;
+    display: inline-block;
+}
+
+.Country-navigation {
+    font-size: 25px;
+    justify-self: center;
+}
+
+.Country-navigation i {
+    margin: auto 20px;
+    justify-self: center;
+}
+
+.Country-navigation i:hover {
+    cursor: pointer;
+    color: #D2D9CC;
+}
+
