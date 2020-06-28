@@ -1,0 +1,19 @@
+.Navbar {
+    min-height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(200, 252, 79); */
+    background-color: #0D0D0D;
+    color: #D2D9CC;
+    outline: none !important;
+    outline-offset: none !important;
+}
+
+.Navbar:hover {
+    background-color: #D2D9CC;
+    color: #0D0D0D;
+    cursor: pointer;
+}
+
